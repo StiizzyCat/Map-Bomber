@@ -10,5 +10,8 @@
        ░         ░  ░          ░          ░ ░         ░    ░         ░  ░   ░     
                                     ░                           ░               
 ```
-#Script Info
+# Script Info
++ Uses Node-Threads for faster botting
++ Can be run on any of the mainstream code editors
++ Simple and fast
                                 
