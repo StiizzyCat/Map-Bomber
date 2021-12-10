@@ -21,6 +21,7 @@
 + node-worker-threads-pool https://www.npmjs.com/package/node-worker-threads-pool
 + Counter https://www.npmjs.com/package/counter
 + Axios https://www.npmjs.com/package/axios
+[![Run on Repl.it](https://replit.com/@WeLuvStiizzyCat/Map-Bomber)](https://github.com/StiizzyCat/Map-Bomber)
 # How 2 Install
 ```
 npm i
