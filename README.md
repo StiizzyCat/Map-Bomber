@@ -24,6 +24,6 @@
 # How 2 Install
 ```
 npm i
-npm i chalk@5.0.0 prompt-sync node-worker-threads-pool counter axios
+npm i chalk@4.1.1 prompt-sync node-worker-threads-pool counter axios
 ```
                                 
