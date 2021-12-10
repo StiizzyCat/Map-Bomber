@@ -10,6 +10,7 @@
        ░         ░  ░          ░          ░ ░         ░    ░         ░  ░   ░     
                                     ░                           ░               
 ```
+[![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://replit.com/@WeLuvStiizzyCat/Map-Bomber)
 # Script Info
 + Uses Node-Threads for faster botting
 + Can be run on any of the mainstream code editors
@@ -21,7 +22,6 @@
 + node-worker-threads-pool https://www.npmjs.com/package/node-worker-threads-pool
 + Counter https://www.npmjs.com/package/counter
 + Axios https://www.npmjs.com/package/axios
-[![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://replit.com/@WeLuvStiizzyCat/Map-Bomber)
 # How 2 Install
 ```
 npm i
