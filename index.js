@@ -36,7 +36,8 @@ staticPool.exec(10).then((result) => {
 	var t = 0
 	var int = setInterval(() => {
 		axios.get(website).catch(error => {
-            console.log(chalk.redBright('ERROR OCCURED, SCRIPT STOPPING!!!')) break;
+            console.log(chalk.redBright('ERROR OCCURED, SCRIPT STOPPING!!!')) 
+	    process.exit() 
         })
 		console.log(chalk.greenBright("Botting Google Site!", chalk.yellowBright(count.value += 1)))
 	})
