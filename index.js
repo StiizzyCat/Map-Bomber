@@ -6,16 +6,12 @@ const {
 	StaticPool
 } = require('node-worker-threads-pool');
 var prompt = require('prompt-sync')();
+var os = require('os')
 const axios = require('axios');
 var counter = require('counter');
 const chalk = require('chalk');
 fs = require('fs');
 count = counter(0);
-
-const staticPool = new StaticPool({
-	size: 10,
-	task: (n) => n + 1
-});
 console.log(' ███▄ ▄███▓ ▄▄▄       ██▓███   ▄▄▄▄    ▒█████   ███▄ ▄███▓ ▄▄▄▄   ▓█████  ██▀███  ')
 console.log(' ▓██▒▀█▀ ██▒▒████▄    ▓██░  ██▒▓█████▄ ▒██▒  ██▒▓██▒▀█▀ ██▒▓█████▄ ▓█   ▀ ▓██ ▒ ██▒')
 console.log(' ▓██    ▓██░▒██  ▀█▄  ▓██░ ██▓▒▒██▒ ▄██▒██░  ██▒▓██    ▓██░▒██▒ ▄██▒███   ▓██ ░▄█ ▒')
@@ -26,8 +22,14 @@ console.log(' ░  ░      ░  ▒   ▒▒ ░░▒ ░     ▒░▒   ░ 
 console.log(' ░      ░     ░   ▒   ░░        ░    ░ ░ ░ ░ ▒  ░      ░    ░    ░    ░     ░░   ░')
 console.log(' ░         ░  ░          ░          ░ ░         ░    ░         ░  ░   ░')
 console.log('                                          ░                           ░                       ')
+var poop = os.cpus()[0].model
 console.log(chalk.bgMagenta('ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤv1.0 Coded By: https://github.com/StiizzyCatㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ'))
+console.log(chalk.bgMagenta(`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤYour Cpu Specs: ${poop}ㅤㅤㅤㅤㅤㅤㅤㅤㅤ`))
 var website = prompt('Enter The website url: ');
+const staticPool = new StaticPool({
+	size: 10,
+	task: (n) => n + 1
+});
 console.log(chalk.greenBright('Initalizing Script!'))
 var wait = setTimeout(() => {
 /* the Threads Start
